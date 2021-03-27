@@ -14,8 +14,10 @@ namespace VS_GreenHouse
     {
         public Form2()
         {
+            
             InitializeComponent();
         }
+
 
         private void заказыToolStripMenuItem_Click(object sender, EventArgs e)
         {

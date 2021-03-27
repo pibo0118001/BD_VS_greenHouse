@@ -19,7 +19,7 @@ namespace VS_GreenHouse
 
         private OleDbConnection myConnection;
 
-
+             
         
         public Form1()
         {
@@ -32,9 +32,22 @@ namespace VS_GreenHouse
             button2.Text = "Отмена";
         }
 
+        
+        private void button1_Click(object sender, EventArgs e) // не готово
+        {
+            if (true) // (textBox1.Text == ... textBox2== ...)
+            {
+
+                DialogResult = DialogResult.OK;
+                Close();
+            }
+
+        }
         private void button2_Click(object sender, EventArgs e)
         {
+            DialogResult = DialogResult.Cancel;
             Close();
         }
+
     }
 }
