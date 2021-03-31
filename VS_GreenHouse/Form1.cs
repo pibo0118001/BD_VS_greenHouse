@@ -16,9 +16,7 @@ namespace VS_GreenHouse
     {
         public static string connectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Workers.mdb;";
         //public static string connectString = "Provider=Microsoft.ACE.OLEDB.12;Data Source=Workers.mdb;"; // если 1-я строка не работает
-
         private OleDbConnection myConnection;
-
              
         
         public Form1()
@@ -33,9 +31,9 @@ namespace VS_GreenHouse
         }
 
         
-        private void button1_Click(object sender, EventArgs e) // не готово
+        private void button1_Click(object sender, EventArgs e) // не готово 
         {
-            if (true) // (textBox1.Text == ... textBox2== ...)
+            if (true) // if (textBox1.Text == ... textBox2== ...)
             {
 
                 DialogResult = DialogResult.OK;

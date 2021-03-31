@@ -19,9 +19,9 @@ namespace VS_GreenHouse
         }
 
 
-        private void заказыToolStripMenuItem_Click(object sender, EventArgs e)
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e) // не готово 
         {
-
+            Close();
         }
     }
 }
