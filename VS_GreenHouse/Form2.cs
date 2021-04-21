@@ -14,12 +14,11 @@ namespace VS_GreenHouse
     {
         public Form2()
         {
-            
             InitializeComponent();
         }
 
-
-        private void выходToolStripMenuItem_Click(object sender, EventArgs e) // не готово 
+        // надо добавить кнопку выхода из профиля
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e) // готово 
         {
             Close();
         }

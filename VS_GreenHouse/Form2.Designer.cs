@@ -41,6 +41,7 @@
             this.счетКлиентуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.отчетОВыручкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.счетКлиентуToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +71,7 @@
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -82,6 +83,8 @@
             // 
             // clientToolStripMenuItem
             // 
+            this.clientToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.счетКлиентуToolStripMenuItem1});
             this.clientToolStripMenuItem.Name = "clientToolStripMenuItem";
             this.clientToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.clientToolStripMenuItem.Text = "Клиенты";
@@ -99,19 +102,19 @@
             // улицыToolStripMenuItem
             // 
             this.улицыToolStripMenuItem.Name = "улицыToolStripMenuItem";
-            this.улицыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.улицыToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.улицыToolStripMenuItem.Text = "Улицы";
             // 
             // должностьToolStripMenuItem
             // 
             this.должностьToolStripMenuItem.Name = "должностьToolStripMenuItem";
-            this.должностьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.должностьToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.должностьToolStripMenuItem.Text = "Должность";
             // 
             // цветыToolStripMenuItem
             // 
             this.цветыToolStripMenuItem.Name = "цветыToolStripMenuItem";
-            this.цветыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.цветыToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.цветыToolStripMenuItem.Text = "Цветы";
             // 
             // документыToolStripMenuItem
@@ -126,13 +129,13 @@
             // счетКлиентуToolStripMenuItem
             // 
             this.счетКлиентуToolStripMenuItem.Name = "счетКлиентуToolStripMenuItem";
-            this.счетКлиентуToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.счетКлиентуToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.счетКлиентуToolStripMenuItem.Text = "Счет клиенту";
             // 
             // отчетОВыручкиToolStripMenuItem
             // 
             this.отчетОВыручкиToolStripMenuItem.Name = "отчетОВыручкиToolStripMenuItem";
-            this.отчетОВыручкиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.отчетОВыручкиToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.отчетОВыручкиToolStripMenuItem.Text = "Отчет о выручки";
             // 
             // helpToolStripMenuItem
@@ -140,6 +143,12 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.helpToolStripMenuItem.Text = "Справка";
+            // 
+            // счетКлиентуToolStripMenuItem1
+            // 
+            this.счетКлиентуToolStripMenuItem1.Name = "счетКлиентуToolStripMenuItem1";
+            this.счетКлиентуToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.счетКлиентуToolStripMenuItem1.Text = "Счет клиенту";
             // 
             // Form2
             // 
@@ -172,5 +181,6 @@
         private System.Windows.Forms.ToolStripMenuItem счетКлиентуToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem отчетОВыручкиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem счетКлиентуToolStripMenuItem1;
     }
 }
