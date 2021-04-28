@@ -1,6 +1,6 @@
 ﻿namespace VS_GreenHouse
 {
-    partial class Form1
+    partial class FormAuthorization
     {
         /// <summary>
         /// Обязательная переменная конструктора.

@@ -1,7 +1,9 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VS_GreenHouse.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Проэкт" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Ace.OLEDB.12.0;Data Source=ЖурналПосещений.accdb;&lt;/value&gt;</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

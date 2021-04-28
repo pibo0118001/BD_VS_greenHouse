@@ -12,11 +12,10 @@ using System.Data.OleDb;
 
 namespace VS_GreenHouse
 {
-    public partial class Form1 : Form
+    public partial class FormAuthorization : Form
     {
-             
         
-        public Form1()
+        public FormAuthorization()
         {
             InitializeComponent();
 
@@ -29,15 +28,13 @@ namespace VS_GreenHouse
             
         }
 
-        
         private void button1_Click(object sender, EventArgs e) // не готово 
         {
-            if (true) // if (textBox1.Text == ... textBox2== ...)
+            if (true)
             {
                 DialogResult = DialogResult.OK;
                 Close();
             }
-
         }
         private void button2_Click(object sender, EventArgs e)
         {

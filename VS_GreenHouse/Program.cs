@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Data.OleDb;
+
 namespace VS_GreenHouse
 {
     static class Program
@@ -17,15 +19,27 @@ namespace VS_GreenHouse
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            using (Form1 form1 = new Form1())
+            using (FormAuthorization form1 = new FormAuthorization())
             {
                 if (form1.ShowDialog() == DialogResult.OK)
                 {
                     Application.Run(new Form2());
                 }
             }
+             
+            Context context = new Context();
+
             
         }
+
+        public class Context
+        {
+            string connectionString;
+            OleDbConnection Connection;
+
+        }
+
+
 
         /*
         Задачи
