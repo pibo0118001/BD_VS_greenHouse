@@ -12,11 +12,10 @@ C:\Users\PIBO0118001\Desktop\VS_GreenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\bin\Debug\VS_GreenHouse.exe.config
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\bin\Debug\VS_GreenHouse.exe
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\bin\Debug\VS_GreenHouse.pdb
-C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.csprojAssemblyReference.cache
-C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.Form1.resources
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.Form2.resources
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.Properties.Resources.resources
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.csproj.GenerateResource.cache
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.csproj.CoreCompileInputs.cache
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.exe
 C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.pdb
+C:\Users\PIBO0118001\Desktop\BD_VS_greenHouse\VS_GreenHouse\obj\Debug\VS_GreenHouse.FormAuthorization.resources

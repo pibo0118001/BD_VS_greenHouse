@@ -25,13 +25,13 @@ namespace VS_GreenHouse.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Ace.OLEDB.12.0;Data Source=ЖурналПосещений.accdb;</value>")]
-        public string Проэкт {
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Ace.OLEDB.12.0;Data Source=Оранжерея.accdb")]
+        public string ConnectionString {
             get {
-                return ((string)(this["Проэкт"]));
+                return ((string)(this["ConnectionString"]));
             }
             set {
-                this["Проэкт"] = value;
+                this["ConnectionString"] = value;
             }
         }
     }

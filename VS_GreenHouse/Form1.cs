@@ -15,7 +15,7 @@ namespace VS_GreenHouse
     public partial class FormAuthorization : Form
     {
         
-        public FormAuthorization()
+        public FormAuthorization(string connectionString)
         {
             InitializeComponent();
 
@@ -27,6 +27,18 @@ namespace VS_GreenHouse
             button2.Text = "Отмена";
             
         }
+
+
+
+
+
+
+
+
+
+
+
+
 
         private void button1_Click(object sender, EventArgs e) // не готово 
         {

@@ -19,26 +19,25 @@ namespace VS_GreenHouse
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            using (FormAuthorization form1 = new FormAuthorization())
+
+        
+            string connectionString = Properties.Settings.Default.ConnectionString;
+
+
+            using (FormAuthorization form1 = new FormAuthorization(connectionString))
             {
                 if (form1.ShowDialog() == DialogResult.OK)
                 {
-                    Application.Run(new Form2());
+                    Application.Run(new Form2(connectionString));
                 }
             }
              
-            Context context = new Context();
+            //Context context = new Context();
 
             
         }
 
-        public class Context
-        {
-            string connectionString;
-            OleDbConnection Connection;
-
-        }
-
+    
 
 
         /*
